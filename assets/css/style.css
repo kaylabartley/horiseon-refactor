@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* START of styling of the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +34,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* START of styling for the navigation bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +51,10 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* END of styling for the navigation bar */
+/* END of styling for the header */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*styling for the hero/jumbotron */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +64,29 @@ p {
     background-position: center;
 }
 
+/* START of styling fot the content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* START of styling for the articles in the content section */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +96,10 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* END of styling for the articles in the content section */
+/* END of styling fot the content section */
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* START of styling for the side bar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -96,30 +121,15 @@ aside h2 {
     text-align: center;
     font-size:18.72px;
 }
+
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* END of styling for the side bar */
 
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
+/* START of styling for footer */
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +140,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* END of styling for footer */
